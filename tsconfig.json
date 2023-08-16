@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+    //Для абсолютного импорта
+    "baseUrl": ".",
+    "paths": {
+      "@Config/*": ["./config/*"],
+      "@Public/*": ["./public/*"],
+      "@/*": ["./src/*"],
+      "@App/*": ["./src/app/*"],
+      "@Pages/*": ["./src/pages/*"],
+      "@Widgets/*": ["./src/widgets/*"],
+      "@Features/*": ["./src/features/*"],
+      "@Entities/*": ["./src/entities/*"],
+      "@Shared/*": ["./src/shared/*"]
+    },
+
+    //=======================
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "noImplicitReturns": false,
+    "strict": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "declaration": true,
+    "sourceMap": true,
+    "noFallthroughCasesInSwitch": true,
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "newLine": "lf"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}

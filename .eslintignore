@@ -1,0 +1,13 @@
+/public
+/dist
+/build
+
+/node_modules
+.idea
+.vscode
+
+/config
+package.json
+tsconfig.json
+.eslintrc.js
+.prettierrc

@@ -1,0 +1,7 @@
+{
+  "src/**/*.{js,jsx,ts,tsx}": [
+    "prettier",
+    "eslint"
+  ],
+  "src/**/*.scss": "stylelint"
+}
